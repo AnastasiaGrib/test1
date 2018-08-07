@@ -46,6 +46,38 @@
     font-style: normal;
     font-weight: normal;
 }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+ol,ul {
+    list-style: none;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
 
 body {
     background: url("../images/background/background.png") no-repeat;
@@ -56,14 +88,26 @@ body {
     font-family: "ProximaNova-Regular", sans-serif;
     color: white;
     font-size: 16px;
-    padding: 10px 0 0 30px;
+    padding: 10px 0 0 0;
+    margin: 0 12px;
     text-decoration: none;
+    display: inline-block;
+}
+
+.main-menu {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.header {
+    display: flex;
+
 }
 
 /*зеленая полоска над ссылками. как убрать лишнее ?????*/
 .main-menu a:hover,
 .main-menu a:active {
-    border-top: 8px solid #54d154;
+    border-top: 5px solid #54d154;
     padding-top: 2px;
     font-weight: bold;
 }
@@ -72,15 +116,32 @@ body {
     font-family: "Nautilus Pompilius", sans-serif;
     font-size: 24px;
     color: white;
+    padding: 0 170px;
+}
+
+.logo-container {
+    flex: 1;
     text-align: center;
-    margin-top: -50px;
 }
 
 .search-container {
-    background: url("../images/button/Rounded Rectangle 2.png") no-repeat;
-    display: inline-block;
-    position: relative;
-    left: 1100px;
+    flex: 1;
+}
+
+.search-container form {
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+    background: url('../images/button/Rounded Rectangle 2.png') no-repeat;
+}
+
+.search-container input[type=text] {
+    border: none;
+    background: transparent;
+}
+
+.search-container input[type=text]:focus {
+    outline: none;
 }
 
 .search-container button {
@@ -92,7 +153,6 @@ body {
     width: 25px;
     height: 25px;
     border: none;
-    opacity: inherit;
 }
 
 div.head_caption h1 {
@@ -108,14 +168,12 @@ div.button-work a {
     font-size: 22px;
     color: white;
     text-decoration: none;
-    position: fixed;
-    left: 600px;
-    top: 450px;
-
+    background: url("../images/button/Rounded Rectangle 5.png") center no-repeat;
+    padding: 20px 25px;
 }
 
 div.button-work {
-    background: url("../images/button/Rounded Rectangle 5.png") center no-repeat;
-    height: 50px;
+    text-align: center;
+    margin-top: 40px;
 
 }
