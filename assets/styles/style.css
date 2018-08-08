@@ -16,8 +16,8 @@ Fonts
 }
 
 @font-face {
-    font-family: "ProximaNova-Bold";
-    src: url("../fonts/ProximaNova-Bold.otf") format("otf");
+    font-family: "proxima_nova-bold";
+    src: url("../fonts/proxima_nova-bold.otf") format("otf");
     font-style: normal;
     font-weight: normal;
 }
@@ -121,7 +121,6 @@ abbr, acronym {
 
 }
 
-/*зеленая полоска над ссылками. как убрать лишнее ?????*/
 .main-menu a:hover,
 .main-menu a:active {
     border-top: 5px solid #54d154;
@@ -162,7 +161,7 @@ abbr, acronym {
 }
 
 .search-container button {
-    font-family: ProximaNova-Light, sans-serif;
+    font-family: "ProximaNova-Light", sans-serif;
     background: url("../images/magnifying-glass34.png") no-repeat;
     position: relative;
     right: 28px;
@@ -196,11 +195,14 @@ Buttons
 .btn-primary {
     color: #fff;
     background: #54d154;
+    border-radius: 40px;
+    padding: 12px 20px;
 }
 
 .btn-info {
     color: #000;
-    background: rgba(255, 255, 255, 0.5)
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
 }
 
 /**
@@ -220,7 +222,7 @@ div.button-scroll-down .btn {
 .container-scroll-down {
     text-align: center;
     padding-bottom: 11px;
-    font-family: 'ProximaNova-Light',sans-serif;
+    font-family: 'ProximaNova-Light', sans-serif;
 }
 
 .container-work {
@@ -246,21 +248,22 @@ section.about div.about_what-we-do {
 
 }
 
-
 section.about div.about_something {
-    font-family: 'open-sans-light',sans-serif;
+    font-family: 'open-sans-light', sans-serif;
     color: #cac8c8;
     text-align: center;
     padding: 30px 0 20px 0;
 
 }
 
-.about__blocks{
+.about__blocks {
     display: flex;
+    padding: 70px;
 }
 
 .about__block {
     flex: 1;
+    text-align: center;
 }
 
 .about__image {
@@ -269,4 +272,29 @@ section.about div.about_something {
     height: 140px;
     border-radius: 30px;
     background: #e1f3e1;
+    margin: 0 auto;
+
+}
+
+.about__text {
+    margin: 30px 0;
+    font-family: "montserrat-light",sans-serif;
+    font-size: 15px;
+    color: #828181;
+
+}
+
+.about__caption {
+    margin: 30px 0;
+    font-family: "proxima_nova-bold", sans-serif;
+    font-size: 24px;
+    color: #828181;
+}
+
+.about__button {
+    font-family: "proxima_nova-bold",sans-serif;
+}
+
+.about__image-logo {
+    padding: 25px;
 }
