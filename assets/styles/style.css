@@ -1,4 +1,3 @@
-
 /**
 Fonts
  */
@@ -55,38 +54,46 @@ Fonts
 Reset CSS
  */
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-form,fieldset,input,textarea,p,blockquote,th,td {
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-fieldset,img {
+
+fieldset, img {
     border: 0;
 }
-address,caption,cite,code,dfn,em,strong,th,var {
+
+address, caption, cite, code, dfn, em, strong, th, var {
     font-weight: normal;
     font-style: normal;
 }
-ol,ul {
+
+ol, ul {
     list-style: none;
 }
-caption,th {
+
+caption, th {
     text-align: left;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-size: 100%;
 }
-q:before,q:after {
-    content:'';
-}
-abbr,acronym { border: 0;
+
+q:before, q:after {
+    content: '';
 }
 
+abbr, acronym {
+    border: 0;
+}
 
 .header-container {
     background: url("../images/background/background.png") no-repeat;
@@ -181,44 +188,48 @@ Buttons
 .btn {
     padding: 10px 5px;
     border-radius: 5px;
-}
-.btn-primary {
-    background: green
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
 }
 
+.btn-primary {
+    color: #fff;
+    background: green;
+}
 
 .btn-info {
-    background: rgba(255,255,255, 0.3)
+    color: #000;
+    background: rgba(255, 255, 255, 0.3)
 }
 
-div.button-work a {
-    font-family: "ProximaNova-Regular", arial, sans-serif;
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    background: url("../images/button/Rounded Rectangle 5.png") center no-repeat;
-    padding: 20px 25px;
-
-}
-
-div.button-work.btn-primary {
+/**
+ Home Section
+ */
+.container-work {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 200px;
-
 }
 
-section.section {
-    background: url("../images/background/background1.png") no-repeat;
-    background-size: cover;
-}
-
-div.button-scroll-down.btn-info  {
-    font-family: 'ProximaNova-Light', sans-serif;
+div.button-scroll-down .btn {
     font-size: 16px;
     color: black;
-    background: rgba(255,255,255, 0.3);
-    border-radius: 5px;
-    padding: 5px;
+}
+
+.container-scroll-down {
     text-align: center;
+}
+
+.container-work {
+    text-align: center;
+}
+
+/**
+ About Section
+ */
+
+section.about {
+    background: url("../images/background/background1.png") no-repeat;
+    background-size: cover;
 }
