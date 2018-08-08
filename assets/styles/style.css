@@ -35,14 +35,14 @@
 
 @font-face {
     font-family: "Nautilus Pompilius";
-    src: url("../fonts/Nautilus Pompilius.otf") format("otf");
+    src: url("../fonts/Nautilus-Pompilius.otf") format("otf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Open Sans Light";
-    src: url("../fonts/Open Sans Light.ttf") format("ttf");
+    src: url("../fonts/Open-Sans-Light.ttf") format("ttf");
     font-style: normal;
     font-weight: normal;
 }
@@ -79,9 +79,10 @@ abbr,acronym { border: 0;
 }
 
 
-body {
+.header-container {
     background: url("../images/background/background.png") no-repeat;
     background-size: cover;
+    display: block;
 }
 
 .main-menu a {
@@ -113,7 +114,7 @@ body {
 }
 
 .logo-container h3 {
-    font-family: "Nautilus Pompilius", sans-serif;
+    font-family: "Nautilus-Pompilius", sans-serif;
     font-size: 24px;
     color: white;
     padding: 0 170px;
@@ -132,7 +133,7 @@ body {
     float: right;
     margin-right: 30px;
     margin-top: 5px;
-    background: url('../images/button/Rounded Rectangle 2.png') no-repeat;
+    background: url('../images/button/Rounded-Rectangle-2.png') no-repeat;
 }
 
 .search-container input[type=text] {
@@ -153,6 +154,7 @@ body {
     width: 25px;
     height: 25px;
     border: none;
+
 }
 
 div.head_caption h1 {
@@ -161,6 +163,18 @@ div.head_caption h1 {
     font-size: 55px;
     margin-top: 290px;
     text-align: center;
+
+}
+
+.btn {
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.btn-primary {
+    background: green
+}
+.btn-info {
+    background: rgba(255,255,255, 0.3)
 }
 
 div.button-work a {
@@ -170,10 +184,27 @@ div.button-work a {
     text-decoration: none;
     background: url("../images/button/Rounded Rectangle 5.png") center no-repeat;
     padding: 20px 25px;
+
 }
 
-div.button-work {
+div.button-work.btn-primary {
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 200px;
 
+}
+
+section.section {
+    background: url("../images/background/background1.png") no-repeat;
+    background-size: cover;
+}
+
+div.button-scroll-down.btn-info  {
+    font-family: 'ProximaNova-Light', sans-serif;
+    font-size: 16px;
+    color: black;
+    background: rgb(255,255,255, 0.3);
+    border-radius: 5px;
+    padding: 5px
+    text-align: center;
 }
