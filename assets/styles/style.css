@@ -259,9 +259,8 @@ section.about div.about_something {
     display: flex;
 }
 
-.about_block {
+.about__block {
     flex: 1;
-
 }
 
 .about__image {
