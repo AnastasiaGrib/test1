@@ -1,3 +1,7 @@
+
+/**
+Fonts
+ */
 @font-face {
     font-family: "ProximaNova-Regular";
     src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot") format("eot");
@@ -46,6 +50,11 @@
     font-style: normal;
     font-weight: normal;
 }
+
+/**
+Reset CSS
+ */
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
@@ -166,6 +175,9 @@ div.head_caption h1 {
 
 }
 
+/**
+Buttons
+ */
 .btn {
     padding: 10px 5px;
     border-radius: 5px;
@@ -173,12 +185,14 @@ div.head_caption h1 {
 .btn-primary {
     background: green
 }
+
+
 .btn-info {
     background: rgba(255,255,255, 0.3)
 }
 
 div.button-work a {
-    font-family: ProximaNova-Regular, sans-serif;
+    font-family: "ProximaNova-Regular", arial, sans-serif;
     font-size: 22px;
     color: white;
     text-decoration: none;
@@ -203,8 +217,8 @@ div.button-scroll-down.btn-info  {
     font-family: 'ProximaNova-Light', sans-serif;
     font-size: 16px;
     color: black;
-    background: rgb(255,255,255, 0.3);
+    background: rgba(255,255,255, 0.3);
     border-radius: 5px;
-    padding: 5px
+    padding: 5px;
     text-align: center;
 }
