@@ -45,7 +45,7 @@ Fonts
 
 @font-face {
     font-family: "Open Sans Light";
-    src: url("../fonts/Open-Sans-Light.ttf") format("ttf");
+    src: url("../fonts/open-sans-light.ttf") format("ttf");
     font-style: normal;
     font-weight: normal;
 }
@@ -195,12 +195,12 @@ Buttons
 
 .btn-primary {
     color: #fff;
-    background: green;
+    background: #54d154;
 }
 
 .btn-info {
     color: #000;
-    background: rgba(255, 255, 255, 0.3)
+    background: rgba(255, 255, 255, 0.5)
 }
 
 /**
@@ -219,6 +219,8 @@ div.button-scroll-down .btn {
 
 .container-scroll-down {
     text-align: center;
+    padding-bottom: 11px;
+    font-family: 'ProximaNova-Light',sans-serif;
 }
 
 .container-work {
@@ -232,4 +234,29 @@ div.button-scroll-down .btn {
 section.about {
     background: url("../images/background/background1.png") no-repeat;
     background-size: cover;
+    padding-top: 660px;
+    display: block;
+}
+
+section.about div.about_what-we-do {
+    font-family: 'montserrat-light', sans-serif;
+    color: #828181;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: -610px;
+
+}
+
+
+section.about div.about_something {
+    font-family: 'open-sans-light',sans-serif;
+    color: #cac8c8;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+section.about-container {
+    display: flex;
 }
