@@ -325,37 +325,60 @@ section.about div.about_something {
 
 .images__button {
     display: flex;
-    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
 }
 .button-green{
-    padding: 15px 5px;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
     color: white;
     text-decoration: none;
     background: #2b9b2b;
+    flex: 1;
+
 }
-.button-white {
-    padding: 15px 5px;
+
+.button-white-border {
     color: white;
     text-decoration: none;
     background: #ffffff;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #2b9b2b;
+    flex: 1;
+
 }
 
-.button-design.button-white,
-.button-print.button-white,
-.button-photo.button-green {
+.button-white {
+    color: white;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid #2b9b2b;
     flex: 1;
-    margin: 0 180px;
-    padding: 10px 50px;
 }
 
 .button-print {
     color: #2b9b2b;
-}
-.button-design {
-    color: #2b9b2b;
+    text-align: center;
+    padding: 15px 10px;
 }
 
-..button-photo {
+.button-design {
+    color: #2b9b2b;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.button-photo {
     color: #ffffff;
+    text-align: center;
+    padding: 15px 16px;
+}
+
+.images__gallery {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: 920px;
 }
