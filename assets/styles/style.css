@@ -37,7 +37,7 @@ Fonts
 }
 
 @font-face {
-    font-family: "Nautilus Pompilius";
+    font-family: "Nautilus-Pompilius";
     src: url("../fonts/Nautilus-Pompilius.otf") format("otf");
     font-style: normal;
     font-weight: normal;
@@ -93,6 +93,10 @@ q:before, q:after {
 
 abbr, acronym {
     border: 0;
+}
+
+body {
+    font-family: "ProximaNova-Regular", sans-serif;
 }
 
 .header-container {
@@ -297,4 +301,61 @@ section.about div.about_something {
 
 .about__image-logo {
     padding: 25px;
+}
+
+.images {
+    background: url("../images/background/rectangle5.png");
+    background-size: cover;
+    display: block;
+}
+.images__text {
+    font-family: "montserrat-light",sans-serif;
+    font-size: 24px;
+    color: #828181;
+    text-align: center;
+    padding: 45px 0 15px 0;
+}
+
+.images__text-something {
+    font-family: 'open-sans-light', sans-serif;
+    color: #828181;
+    text-align: center;
+    padding: 15px 0 30px 0;
+}
+
+.images__button {
+    display: flex;
+    text-align: center;
+}
+.button-green{
+    padding: 15px 5px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background: #2b9b2b;
+}
+.button-white {
+    padding: 15px 5px;
+    color: white;
+    text-decoration: none;
+    background: #ffffff;
+}
+
+.button-design.button-white,
+.button-print.button-white,
+.button-photo.button-green {
+    flex: 1;
+    margin: 0 180px;
+    padding: 10px 50px;
+}
+
+.button-print {
+    color: #2b9b2b;
+}
+.button-design {
+    color: #2b9b2b;
+}
+
+..button-photo {
+    color: #ffffff;
 }
