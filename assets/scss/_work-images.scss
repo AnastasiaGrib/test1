@@ -1,0 +1,27 @@
+.work-images {
+  background: url("../images/background/rectangle5.png");
+  background-size: cover;
+
+  &__text {
+    font-family: "montserrat-light",sans-serif;
+    font-size: 24px;
+    color: #207b20;
+    text-align: center;
+    padding: 45px 0 15px 0;
+
+    &-something {
+      font-family: 'open-sans-light', sans-serif;
+      color: #2b9b2b;
+
+      text-align: center;
+      padding: 15px 0 30px 0;
+    }
+  }
+
+  &__button {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}

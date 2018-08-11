@@ -1,0 +1,86 @@
+
+.header-container {
+  background: url("../images/background/background.png") no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.main-menu a {
+  font-family: "ProximaNova-Regular", sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0 0 0;
+  margin: 0 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main-menu {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+
+}
+
+.main-menu a:hover,
+.main-menu a:active {
+  border-top: 5px solid #54d154;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.logo-container h3 {
+  font-family: "Nautilus-Pompilius", sans-serif;
+  font-size: 24px;
+  color: white;
+  padding: 0 170px;
+}
+
+.logo-container {
+  flex: 1;
+  text-align: center;
+}
+
+.search-container {
+  flex: 1;
+}
+
+.search-container form {
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+  background: url('../images/button/Rounded-Rectangle-2.png') no-repeat;
+}
+
+.search-container input[type=text] {
+  border: none;
+  background: transparent;
+}
+
+.search-container input[type=text]:focus {
+  outline: none;
+}
+
+.search-container button {
+  font-family: "ProximaNova-Light", sans-serif;
+  background: url("../images/magnifying-glass34.png") no-repeat;
+  position: relative;
+  right: 28px;
+  top: 6px;
+  width: 25px;
+  height: 25px;
+  border: none;
+
+}
+
+div.head_caption h1 {
+  color: white;
+  font-family: "Montserrat_bold", sans-serif;
+  font-size: 55px;
+  margin-top: 290px;
+  text-align: center;
+
+}
