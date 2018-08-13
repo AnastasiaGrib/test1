@@ -1,0 +1,76 @@
+section.about {
+  background: url("../images/background/background1.png") no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+section.about div.about_what-we-do {
+  font-family: 'montserrat-light', sans-serif;
+  color: #828181;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 45px;
+
+}
+
+section.about div.about_something {
+  font-family: 'open-sans-light', sans-serif;
+  color: #cac8c8;
+  text-align: center;
+  padding: 30px 0 20px 0;
+
+}
+
+.about__blocks {
+  display: flex;
+  padding: 70px;
+}
+
+.about__block {
+  flex: 1;
+  text-align: center;
+}
+
+.about__image {
+  padding: 20px;
+  width: 140px;
+  height: 140px;
+  border-radius: 30px;
+  background: #e1f3e1;
+  margin: 0 auto;
+
+}
+
+.about__text {
+  margin: 30px 0;
+  font-family: "montserrat-light",sans-serif;
+  font-size: 15px;
+  color: #828181;
+
+}
+
+.about__caption {
+  margin: 30px 0;
+  font-family: "proxima_nova-bold", sans-serif;
+  font-size: 24px;
+  color: #828181;
+}
+
+.about__button {
+  font-family: "proxima_nova-bold",sans-serif;
+}
+
+.about__image-logo {
+  padding: 25px;
+}
+
+
+.work-button {
+  text-align: center;
+  padding: 10px 20px;
+  color: #2b9b2b;
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #2b9b2b;
+  flex: 1;
+}
