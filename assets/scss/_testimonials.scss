@@ -17,4 +17,25 @@
     text-align: center;
     padding: 15px 0 37px 0;
   }
+
+  &-tagline{
+    text-align: center;
+    color: #444444;
+    font-family: 'ProximaNova-Regular',sans-serif;
+    padding: 35px 0 25px 0;
+  }
+
+  &-mr {
+    text-align: center;
+    color: #444444;
+    padding-bottom: 10px;
+  }
+
+  &-ceo {
+
+    font-family: "proxima_nova-bold", sans-serif;
+    color: #cccccc;
+    padding: 0 0 35px 720px;
+
+  }
 }
