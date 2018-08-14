@@ -17,16 +17,38 @@
     font-family: "open-sans-light", sans-serif;
     font-size: 16px;
     color: #b7b3b3;
-    padding: 15px 0 75px;
+    padding: 15px 0 40px;
   }
-}
-
-.client__caption-icon {
+  &-icon {
+    padding-top: 30px;
+    padding-bottom: 60px;
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 850px;
     margin: 0 auto;
-    padding-bottom: 65px;
   }
+
+  &-logo {
+    padding: 42px 40px 30px 20px;
+  }
+
+  &-button {
+    text-align: center;
+    padding-bottom: 60px;
+    font-family: 'ProximaNova-Light', sans-serif;
+    font-size: 18px;
+  }
+
+  &-btn {
+    padding: 12px 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: #a59d9d;
+    font-size: 18px;
+    background: #dddcdc;
+    border-radius: 40px
+  }
+}
+
+/* у кнопки нижний падинг 30*/
