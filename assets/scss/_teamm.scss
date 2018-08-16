@@ -1,0 +1,60 @@
+.team-work {
+  background: url(../images/background/rectangle5.png);
+  background-size: cover;
+
+  &__caption {
+    font-family: "montserrat-light", sans-serif;
+    font-size: 24px;
+    color: #207b20;
+    text-align: center;
+    padding: 45px 0 15px;
+  }
+
+  &__something {
+    font-family: 'open-sans-light', sans-serif;
+    color: #2b9b2b;
+    text-align: center;
+    padding: 15px 0 55px 0;
+  }
+  &__blocks {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 875px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  &__block {
+    flex: 1;
+    padding: 0 25px 0 25px;
+    text-align: center;
+  }
+
+  &__icon {
+    padding-bottom: 50px;
+  }
+
+  &__name {
+    color: #ffffff;
+    padding: 50px 0 7px 0;
+  }
+
+  &__btn {
+    background: rgba(255, 255, 255, .5);
+    display: inline-block;
+    border-radius: 40px;
+    max-width: 85px;
+    text-align: center;
+    padding: 5px 3px;
+
+    a {
+      padding: 4px 0 4px 2px;
+    }
+
+    a:nth-child(2) {
+      padding: 4px 5px;
+    }
+  }
+
+}

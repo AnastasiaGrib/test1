@@ -25,17 +25,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 850px;
+    max-width: 900px;
     margin: 0 auto;
   }
 
   &-logo {
-    padding: 42px 40px 30px 20px;
+    min-width: 220px;
+    max-width:220px;
+    text-align: center;
+    flex: 1;
+    padding-bottom: 50px;
+
+    img {
+      max-width: 100%;
+    }
   }
+
 
   &-button {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     font-family: 'ProximaNova-Light', sans-serif;
     font-size: 18px;
   }
